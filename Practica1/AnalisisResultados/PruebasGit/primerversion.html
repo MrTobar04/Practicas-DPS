@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zq-ALPHA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>👽 Ƶηυℓωɛɍ 👽</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+    body {
+      margin: 0;
+      background: radial-gradient(ellipse at center, #0f0f0f 0%, #050505 100%);
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffcc;
+      overflow-x: hidden;
+      animation: pulseGlow 10s infinite alternate;
+    }
+
+    @keyframes pulseGlow {
+      0% { box-shadow: inset 0 0 100px #00ffcc44; }
+      100% { box-shadow: inset 0 0 200px #00ffccaa; }
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(90deg, #0ff 0%, #f0f 50%, #0ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 3rem;
+      letter-spacing: 5px;
+    }
+
+    .alien-sigil {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 2rem auto;
+      background: repeating-conic-gradient(#0f0 0% 10%, #00f 10% 20%);
+      animation: rotateSigil 5s linear infinite;
+    }
+
+    @keyframes rotateSigil {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .content {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(0, 255, 204, 0.05);
+      padding: 2rem;
+      border: 2px dashed #00ffcc;
+      border-radius: 20px;
+      text-align: justify;
+    }
+
+    .alien-button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background: linear-gradient(45deg, #0ff, #f0f);
+      color: #000;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-shadow: 0 0 10px #000;
+      animation: flicker 1.5s infinite alternate;
+    }
+
+    @keyframes flicker {
+      from { opacity: 0.8; transform: scale(1); }
+      to { opacity: 1; transform: scale(1.05); }
+    }
+
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>👽 Ƶηυℓωɛɍ: The Alien Github Portal 👽</header>
+
+  <div class="alien-sigil"></div>
+
+  <div class="content">
+    <p>Git fue creado pensando en la eficiencia y la confiabilidad del mantenimiento de
+versiones de aplicaciones cuando éstas tienen un gran número de archivos de código
+fuente, es decir Git nos proporciona las herramientas para desarrollar un trabajo en
+equipo de manera inteligente y rápida y por trabajo nos referimos a algún software o
+página que implique código el cual necesitemos hacerlo con un grupo de personas.</p>
+
+<p>Los Sistemas de Control de Versiones Distribuidos (DVCS) salvan este problema.
+Algunos ejemplos de sistemas distribuidos, aparte de Git, son Mercurial, Bazaar o
+Darcs. En este tipo de herramientas, los clientes replican completamente el
+repositorio.</p>
+    
+    <button class="alien-button">INITIATE CONTACT</button>
+  </div>
+
+  <footer>
+    ⧉ Signal Origin: Sector 9-Ω | © Ƶηυℓωɛɍ Collective 5092 A.T.
+  </footer>
+</body>
+</html>
