@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mercurio",
+    "imagen": "https://content.nationalgeographic.com.es/medio/2022/07/31/el-planeta-mercurio_3bcc14b3_1200x630.jpg",
+    "masa": "3.30 × 10^23 kg",
+    "distancia": "57.9 millones de km",
+    "temperatura": "167 °C"
+  },
+  {
+    "id": 2,
+    "nombre": "Venus",
+    "imagen": "https://content.nationalgeographic.com.es/medio/2022/07/31/el-planeta-venus_de3a3995_1280x1280.jpg",
+    "masa": "4.87 × 10^24 kg",
+    "distancia": "108.2 millones de km",
+    "temperatura": "464 °C"
+  },
+  {
+    "id": 3,
+    "nombre": "Tierra",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/960px-The_Earth_seen_from_Apollo_17.jpg",
+    "masa": "5.97 × 10^24 kg",
+    "distancia": "149.6 millones de km",
+    "temperatura": "15 °C"
+  }
+]

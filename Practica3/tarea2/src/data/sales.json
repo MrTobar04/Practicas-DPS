@@ -1,0 +1,8 @@
+[
+  { "año": 2023, "mes": "Enero",   "ventas": 12500 },
+  { "año": 2023, "mes": "Febrero", "ventas": 14200 },
+  { "año": 2023, "mes": "Marzo",   "ventas": 11050 },
+  { "año": 2024, "mes": "Enero",   "ventas": 15230 },
+  { "año": 2024, "mes": "Febrero", "ventas": 16300 },
+  { "año": 2024, "mes": "Marzo",   "ventas": 17120 }
+]

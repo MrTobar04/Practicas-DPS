@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "JavaScript",
+    "descripcion": "Lenguaje de scripting ampliamente utilizado en el desarrollo web.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEFsN-FaMzyQLVj387F8MixGGSaOwItLO0tg&s"
+  },
+  {
+    "id": 2,
+    "nombre": "Python",
+    "descripcion": "Lenguaje versátil y fácil de aprender, popular en ciencia de datos.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYZqZkpMyiN2uSuT7GAf6JSkJ44YsZqoQHdw&s"
+  },
+  {
+    "id": 3,
+    "nombre": "Java",
+    "descripcion": "Lenguaje orientado a objetos usado en aplicaciones empresariales.",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
+  }
+]
